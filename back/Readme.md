@@ -27,4 +27,23 @@ Before setting up the backend, ensure you have the following installed:
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Database Name] (Running locally or on a cloud service)
 
+Folder Structure
+backend/
+├── src/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   ├── utils/
+│   └── app.js
+├── .env
+├── package.json
+└── README.md
+
+API Endpoints
+**Method**	                            **Endpoint**	                     **Description**
+  GET	                                    /api/resource	                 Fetch all resources
+POST	                                    /api/resource	                 Create a new resource
+PUT	                                      /api/resource/:id	             Update a resource by ID
+DELETE	                                  /api/resource/:id	             Delete a resource by ID
 
