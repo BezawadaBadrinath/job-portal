@@ -1,12 +1,12 @@
-# Backend for [Project Name]
+# Backend for Job portal
 
-This is the backend for the [Project Name], which handles all server-side logic, database management, and API endpoints. It is designed to work seamlessly with the corresponding frontend.
+This is the backend for the Job portal, which handles all server-side logic, database management, and API endpoints. It is designed to work seamlessly with the corresponding frontend.
 
 ## Features
 
 - User authentication and authorization
 - RESTful API endpoints
-- Database integration with [Database Name]
+- Database integration with mongodb
 - Middleware for request validation and error handling
 - Secure handling of sensitive data
 - Scalable and modular architecture
