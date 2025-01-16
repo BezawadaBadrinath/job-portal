@@ -35,4 +35,58 @@ Before setting up the frontend, ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd frontend
+Install dependencies:
 
+bash
+Copy
+Edit
+npm install
+Set up environment variables: Create a .env file in the root of the frontend folder with the following keys:
+
+env
+Copy
+Edit
+REACT_APP_API_URL=http://localhost:5000/api
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+Access the application at:
+
+arduino
+Copy
+Edit
+http://localhost:3000
+Folder Structure
+java
+Copy
+Edit
+frontend/
+├── public/
+│   ├── index.html
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── .env
+├── package.json
+└── README.md
+Contribution
+Fork the repository.
+Create a new branch for your feature/bugfix:
+bash
+Copy
+Edit
+git checkout -b feature-name
+Commit your changes and push them:
+bash
+Copy
+Edit
+git commit -m "Description of changes"
+git push origin feature-name
