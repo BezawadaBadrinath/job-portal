@@ -77,16 +77,8 @@ frontend/
 ├── .env
 ├── package.json
 └── README.md
-Contribution
-Fork the repository.
-Create a new branch for your feature/bugfix:
-bash
-Copy
-Edit
-git checkout -b feature-name
-Commit your changes and push them:
-bash
-Copy
-Edit
-git commit -m "Description of changes"
-git push origin feature-name
+
+
+Project Link: https://github.com/BezawadaBadrinath/job-portal
+
+Please give a ⭐️ to the repository if you find this project helpful!
