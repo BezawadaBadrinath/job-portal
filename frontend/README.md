@@ -1,83 +1,38 @@
-# Job Portal App with MERN Stack
+# Frontend for Job portal
 
-A comprehensive job portal application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse job listings, apply for jobs, and manage their applications seamlessly.
+This is the frontend for the job poratal, providing an interactive and user-friendly interface for users to interact with the application. It consumes the APIs exposed by the backend and displays data dynamically.
+
+
+![Uploading Screenshot 2025-01-16 214108.png…]()
+
 
 ## Features
 
-- **User Authentication:** Secure authentication using JWT (JSON Web Tokens) for both job seekers and employers.
-- **Job Listings:** Browse through a wide range of job listings fetched from MongoDB.
-- **Application Management:** Job seekers can manage their job applications, and employers can view and manage received applications.
-- **Responsive Design:** Ensures a seamless experience across all devices.
+- Responsive and modern UI/UX design
+- Integration with backend APIs for dynamic content
+- State management with [Redux/Context API/etc.]
+- Form validation and client-side input handling
+- Optimized for performance and accessibility
 
 ## Technologies Used
 
-- **Frontend:** React.js, React Router, Bootstrap
-- **Backend:** Node.js, Express.js, MongoDB
-- **Authentication:** JWT (JSON Web Tokens), Bcrypt (for password hash)
-- **Image Upload:** Cloudinary for storing and managing uploaded images
-- **Deployment:** Vercel (frontend), Render(backend), MongoDB Atlas (database)
+- **Framework/Library**: [React/Vue/Angular/etc.]
+- **CSS Framework**: [Bootstrap/Tailwind CSS/etc.]
+- **State Management**: [Redux/Context API/Vuex/etc.]
+- **Routing**: [React Router/etc.]
+- **Build Tool**: [Vite/Webpack/Create React App/etc.]
 
-## Getting Started
+## Prerequisites
 
-To get a local copy up and running follow these simple steps.
+Before setting up the frontend, ensure you have the following installed:
 
-### Prerequisites
+- [Node.js](https://nodejs.org/) (Version X.X.X or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-- Node.js installed on your machine with latest version or v22.2.0 above
-- MongoDB Atlas account (or local MongoDB server)
-- Cloudinary account for image storage
+## Setup Instructions
 
-### Installation
-
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/exclusiveabhi/react-job-portal.git
-   ```
-2. Install NPM packages:
-   ```sh
-   cd react-job-portal
-   cd backend
-   npm install
-   cd..
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
    cd frontend
-   npm install
-   ```
-3. Set up environment variables:
-   - Create a `config.env` file after creating a `config folder` in the backend directory, containing the following variables:
-   ```env
-   PORT=
-   CLOUDINARY_API_KEY=
-   CLOUDINARY_API_SECRET=
-   CLOUDINARY_CLOUD_NAME=
-   FRONTEND_URL=
-   DB_URL=
-   JWT_SECRET_KEY=
-   JWT_EXPIRE=
-   COOKIE_EXPIRE=
-   ```
 
-   Replace each value with your specific configuration details.
-
-4. Run the application:
-   ```sh
-   npm run dev
-   ```
-5. Open your browser and navigate to `http://localhost:5173` to view the app.
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request (`we will merge within 24 hour`)
-
-## Please give a star to the repository if you like it.
-
-## Contact
-
-Abhishek Rajput - [GitHub](https://github.com/exclusiveabhi)
-
-Project Link: [https://github.com/exclusiveabhi/react-job-portal.git](https://github.com/exclusiveabhi/react-job-portal.git)
