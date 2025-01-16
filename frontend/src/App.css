@@ -237,6 +237,7 @@ p {
   display: none;
 }
 
+
 .heroSection {
   display: flex;
   flex-direction: column;
@@ -244,7 +245,7 @@ p {
 }
 .heroSection .container,
 .heroSection .details {
-  min-width: 1500px;
+  
   max-width: 1500px;
   margin: 0 auto;
 }
@@ -522,13 +523,13 @@ p {
   width: 340px;
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: #f2eded;
   padding: 20px;
   gap: 15px;
 }
 .companies .container .banner .card:hover {
   transition: all 0.3s;
-  box-shadow: 2px 10px 10px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 2px 10px 10px -1px rgba(17, 16, 16, 0.17);
   -webkit-box-shadow: 2px 10px 10px -1px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 2px 10px 10px -1px rgba(0, 0, 0, 0.17);
 }
@@ -1352,3 +1353,4 @@ nav .hamburger {
     z-index: 11;
   }
 }
+

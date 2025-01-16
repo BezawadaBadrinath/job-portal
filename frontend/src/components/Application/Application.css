@@ -1,0 +1,71 @@
+.application {
+    background-color: #f0f2f5;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f3f6f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-field, .textarea-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0f0808;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .textarea-field {
+    height: 150px;
+    resize: none;
+  }
+  
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .file-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .file-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background-color: #007BFF;
+    color: rgb(245, 241, 241);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  

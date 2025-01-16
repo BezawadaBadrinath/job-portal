@@ -3,7 +3,7 @@ import mongoose from "mongoose"; //just mongoose import!
 //Database connection here!
  const dbConnection  = ()=>{
     mongoose.connect(process.env.DB_URL,{
-       dbName: "Job_Portal"
+       dbName: "badriproject"
 
     }).then(()=>{ //agar connect ho jaye toh!
        console.log("MongoDB Connected")
