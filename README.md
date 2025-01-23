@@ -1,3 +1,5 @@
+**JOB PROTAL**
+
 **Frontend for Job portal**
 
 This is the frontend for the job poratal, providing an interactive and user-friendly interface for users to interact with the application. It consumes the APIs exposed by the backend and displays data dynamically.
