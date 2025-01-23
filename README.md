@@ -1,9 +1,9 @@
-Frontend for Job portal
+**Frontend for Job portal**
 This is the frontend for the job poratal, providing an interactive and user-friendly interface for users to interact with the application. It consumes the APIs exposed by the backend and displays data dynamically.
 
 Uploading Screenshot 2025-01-16 214108.png…
 
-Features
+**Features**
 Responsive and modern UI/UX design
 Integration with backend APIs for dynamic content
 State management with [Redux/Context API/etc.]
